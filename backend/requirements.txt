@@ -1,0 +1,17 @@
+# Backend Dependencies for VectorShift Pipeline API
+# Core framework and server
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.27,<1.0
+
+# Data validation
+pydantic>=2.7,<3
+
+# Graph analysis and DAG validation
+networkx>=3.2,<4
+
+# Optional: request parsing
+python-multipart>=0.0.6,<1
+
+# Dev/testing (optional)
+pytest>=7,<9
+httpx>=0.25,<1 
